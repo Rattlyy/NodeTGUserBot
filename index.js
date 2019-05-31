@@ -17,7 +17,8 @@ Client.connect(connection => {
      try {
        if (fs.existsSync(`./commands/${msg.text}.js`)) { //if command exists
          try {
-          let commandFile = require(`./commands/${msg.text}.js`);
+          var command = msg.text.toLowerCase();
+          let commandFile = require(`./commands/${command}.js`);
           commandFile.run(message, msg, admin); //run file
         } catch(err) {
           console.log(err); //log errors
