@@ -14,6 +14,8 @@ echo "[NodeTGUserBot] - Installing Required Node.js Dependencies"
 npm i --save tg-cli-node
 npm i -g pm2
 echo "[NodeTGUserBot] - Installed Node.js Dependencies"
-bin/telegram-cli -k tg-server.pub
 echo "[NodeTGUserBot] - Install Finished"
 echo "[NodeTGUserBot] - To run your code, use pm2 start index.js"
+echo "[NodeTGUserBot] - Entering Telegram-CLI so you can configure it with your number."
+echo "[NodeTGUserBot] - Created by Rattly"
+bin/telegram-cli -k tg-server.pub
