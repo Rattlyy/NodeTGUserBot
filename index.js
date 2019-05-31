@@ -11,7 +11,12 @@ const Client = new TelegramAPI({
 Client.connect(connection => {
   connection.on('message', message => {
     const msg = message;
-    var command = msg.text.toLowerCase();
+    var command = "";
+    if(msg.text) {
+    command = msg.text.toLowerCase();
+  } else {
+    command = null;
+  }
     //logs message
     console.log(message.from.peer_id+": "+message.text);
 
