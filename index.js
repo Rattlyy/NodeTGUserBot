@@ -11,13 +11,13 @@ const Client = new TelegramAPI({
 Client.connect(connection => {
   connection.on('message', message => {
     const msg = message;
+    var command = msg.text.toLowerCase();
     //logs message
     console.log(message.from.peer_id+": "+message.text);
 
      try {
-       if (fs.existsSync(`./commands/${msg.text}.js`)) { //if command exists
+       if (fs.existsSync(`./commands/${command}.js`)) { //if command exists
          try {
-          var command = msg.text.toLowerCase();
           let commandFile = require(`./commands/${command}.js`);
           commandFile.run(message, msg, admin); //run file
         } catch(err) {
