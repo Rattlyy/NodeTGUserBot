@@ -1,7 +1,7 @@
 # TGNodeUserBot
 A Node.js Telegram UserBot based on [tg-cli-node](https://github.com/vysheng/tg) and the beautiful [telegram-cli](https://github.com/vysheng/tg)
 
-[Docs](https://github.com/Rattly/NodeTGUserBot/wiki/Documentation)
+[Docs](https://github.com/zRattly/NodeTGUserBot/wiki/Documentation)
 ## How to use
 Ubuntu auto-installer:
 ```bash
