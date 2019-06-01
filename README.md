@@ -13,7 +13,7 @@ Manual:
 * Install dependencies: ```npm install --save``` 
 * Start the  app with ```node index.js```
 
->Tip: You can find examples in the command directory.
+>Tip: You can find examples in the command directory or by using [NodeUserBot](https://github.com/zRattly/NodeUserBot).
 
 ## Support:
 [Rattly](t.me/RattlyBot)
