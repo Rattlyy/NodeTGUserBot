@@ -14,3 +14,6 @@ Manual:
 * Start the  app with ```node index.js```
 
 >Tip: You can find examples in the command directory.
+
+## Support:
+[Rattly](t.me/RattlyBot)
