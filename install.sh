@@ -19,4 +19,4 @@ echo "[NodeTGUserBot] - Install Finished"
 echo "[NodeTGUserBot] - To run your code, use pm2 start index.js"
 echo "[NodeTGUserBot] - Entering Telegram-CLI so you can configure it with your number."
 echo "[NodeTGUserBot] - Created by Rattly"
-tg/bin/telegram-cli -k tg-server.pub
+bin/telegram-cli -k tg-server.pub
