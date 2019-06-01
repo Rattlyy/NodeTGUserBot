@@ -1,14 +1,14 @@
 #!/bin/sh
 echo "[NodeTGUserBot] - Installer"
 echo "[NodeTGUserBot] - Installing Required Packages"
-apt-get update
-apt-get install nodejs npm git screen gcc libreadline-dev libconfig-dev libpng-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson-dev libpython-dev make  -y
+sudo apt-get update
+sudo apt-get install nodejs npm git screen gcc libreadline-dev libconfig-dev libpng-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson-dev libpython-dev make  -y
 echo "[NodeTGUserBot] - Packages Installed"
 echo "[NodeTGUserBot] - Installing Telegram-CLI"
 git clone --recursive https://github.com/vysheng/tg.git && cd tg
 ./configure
 echo "[NodeTGUserBot] - Compiling Telegram-CLI"
-make
+sudo make
 echo "[NodeTGUserBot] - Compiled Telegram-CLI"
 echo "[NodeTGUserBot] - Installing Required Node.js Dependencies"
 npm i --save tg-cli-node
