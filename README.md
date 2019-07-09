@@ -1,4 +1,4 @@
-# OUTDATED -- I'm gonna make a new version -- This is for now deprecated
+# OUTDATED -- I've almost finished rewriting this. It is a custom tdlib wrapper -- This is for now deprecated
 
 # TGNodeUserBot [![StyleCI](https://github.styleci.io/repos/188240465/shield?branch=master)](https://github.styleci.io/repos/188240465)
 A Node.js Telegram UserBot based on [tg-cli-node](https://github.com/vysheng/tg) and the beautiful [telegram-cli](https://github.com/vysheng/tg)
